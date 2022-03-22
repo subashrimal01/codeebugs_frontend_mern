@@ -27,10 +27,10 @@ class Mid extends Component{
             <>
             <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/userprofile" element={<UserProfile />} />
-            <Route path="/login" element={<Login />} />
+            <Route path="https://codeebugs.netlify.app/userprofile" element={<UserProfile />} />
+            <Route path="https://codeebugs.netlify.app/login" element={<Login />} />
             <Route path="/logout" element={<UserProfile/>} />
-            <Route path="/courses" element={<Courses/>} />
+            <Route path="https://codeebugs.netlify.app/courses" element={<Courses/>} />
             <Route path="/courses/:id" element={<CourseDetail/>} />
             <Route path="/courseinsert" element={<CourseAdd/>} />
             <Route path="/admin" element={<Admindashboard/>} />
